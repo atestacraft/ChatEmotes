@@ -1,24 +1,24 @@
-name: EChat
-main: br.net.fabiozumbi12.MinEmojis.MinEmojis
-version: 1.0.0.
+name: TwitchEmotes
+main: org.crashmax.TwitchEmotes.Emotes
+version: 1.0.0
 author: CrashMax
 softdepend: [ResourcePackApi]
-description: Send Twitch emotes to chat.
+description: Send real Twitch emotes to chat.
 commands:
   MinEmojis:
-    description: "Main command for EChat."
-    aliases: [e, emo, emotes]
+    description: "Main command for Twitch Emotes."
+    aliases: [e ,emo, emotes]
 permissions:
   minemojis.*:
-    description: "All EChat permissions."
+    description: "All Twitch Emotes permissions."
     default: op
     children:
       minemojis.reload: true
       minemojis.player: true
       minemojis.setsign: true
   minemojis.player:
-    description: "All player EChat permissions."
-    default: true
+    description: "All player Twitch Emotes permissions."
+    default: false
     children:
       minemojis.install: true
       minemojis.download: true
