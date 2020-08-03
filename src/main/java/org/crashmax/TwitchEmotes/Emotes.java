@@ -80,56 +80,56 @@ public class Emotes extends JavaPlugin implements Listener {
     }
 
     private void AddEmojis() {
-        emojis.put(new ArrayList<>(Collections.singletonList(":blush:")), "䰀");
-        emojis.put(new ArrayList<>(Collections.singletonList(":smile:")), "䰁");
-        emojis.put(new ArrayList<>(Collections.singletonList(":rage:")), "䰂");
-        emojis.put(new ArrayList<>(Collections.singletonList(":anguished:")), "䰃");
-        emojis.put(new ArrayList<>(Collections.singletonList(":heart:")), "䰄");
-        emojis.put(new ArrayList<>(Collections.singletonList(":broken_heart:")), "䰅");
-        emojis.put(new ArrayList<>(Collections.singletonList(":heart_eyes:")), "䰆");
-        emojis.put(new ArrayList<>(Collections.singletonList(":kissing_heart:")), "䰇");
-        emojis.put(new ArrayList<>(Collections.singletonList(":sob:")), "䰈");
-        emojis.put(new ArrayList<>(Collections.singletonList(":sunglasses:")), "䰉");
-        emojis.put(new ArrayList<>(Collections.singletonList(":unamused:")), "䰊");
-        emojis.put(new ArrayList<>(Collections.singletonList(":zzz:")), "䰋");
-        emojis.put(new ArrayList<>(Collections.singletonList(":dizzy_face:")), "䰌");
-        emojis.put(new ArrayList<>(Collections.singletonList(":expressionless:")), "䰍");
-        emojis.put(new ArrayList<>(Collections.singletonList(":wink:")), "䰎");
-        emojis.put(new ArrayList<>(Collections.singletonList(":worried:")), "䰏");
+        emojis.put(new ArrayList<>(Collections.singletonList("4Head")), "䰀");
+        emojis.put(new ArrayList<>(Collections.singletonList("ANELE")), "䰁");
+        emojis.put(new ArrayList<>(Collections.singletonList("BloodTrail")), "䰂");
+        emojis.put(new ArrayList<>(Collections.singletonList("BibleThump")), "䰃");
+        emojis.put(new ArrayList<>(Collections.singletonList("CoolStoryBob")), "䰄");
+        emojis.put(new ArrayList<>(Collections.singletonList("DansGame")), "䰅");
+        emojis.put(new ArrayList<>(Collections.singletonList("FailFish")), "䰆");
+        emojis.put(new ArrayList<>(Collections.singletonList("Kappa")), "䰇");
+        emojis.put(new ArrayList<>(Collections.singletonList("KappaPride")), "䰈");
+        emojis.put(new ArrayList<>(Collections.singletonList("Keepo")), "䰉");
+        emojis.put(new ArrayList<>(Collections.singletonList("NotLikeThis")), "䰊");
+        emojis.put(new ArrayList<>(Collections.singletonList("PogChamp")), "䰋");
+        emojis.put(new ArrayList<>(Collections.singletonList("SeemsGood")), "䰌");
+        emojis.put(new ArrayList<>(Collections.singletonList("SMOrc")), "䰍");
+        emojis.put(new ArrayList<>(Collections.singletonList("TriHard")), "䰎");
+        emojis.put(new ArrayList<>(Collections.singletonList("Kreygasm")), "䰏");
 
-        emojis.put(new ArrayList<>(Collections.singletonList(":stuck_out_tongue_closed_eyes:")), "䰐");
-        emojis.put(new ArrayList<>(Collections.singletonList(":yum:")), "䰑");
-        emojis.put(new ArrayList<>(Collections.singletonList(":open_mouth:")), "䰒");
-        emojis.put(new ArrayList<>(Collections.singletonList(":flushed:")), "䰓");
-        emojis.put(new ArrayList<>(Collections.singletonList(":confused:")), "䰔");
-        emojis.put(new ArrayList<>(Collections.singletonList(":sweat:")), "䰕");
-        emojis.put(new ArrayList<>(Collections.singletonList(":star:")), "䰖");
-        emojis.put(new ArrayList<>(Collections.singletonList(":cupid:")), "䰗");
-        emojis.put(new ArrayList<>(Collections.singletonList(":shit:")), "䰘");
-        emojis.put(new ArrayList<>(Collections.singletonList(":thumbsup:")), "䰙");
-        emojis.put(new ArrayList<>(Collections.singletonList(":thumbsdown:")), "䰚");
-        emojis.put(new ArrayList<>(Collections.singletonList(":punch:")), "䰛");
-        emojis.put(new ArrayList<>(Collections.singletonList(":ok_hand:")), "䰜");
-        emojis.put(new ArrayList<>(Collections.singletonList(":raised_hands:")), "䰝");
-        emojis.put(new ArrayList<>(Collections.singletonList(":kiss:")), "䰞");
-        emojis.put(new ArrayList<>(Collections.singletonList(":eyes:")), "䰟");
+        emojis.put(new ArrayList<>(Collections.singletonList("roflanEbalo")), "䰐");
+        emojis.put(new ArrayList<>(Collections.singletonList("ebaloRoflan")), "䰑");
+        emojis.put(new ArrayList<>(Collections.singletonList("roflanBuldiga")), "䰒");
+        emojis.put(new ArrayList<>(Collections.singletonList("roflanGorit")), "䰓");
+        emojis.put(new ArrayList<>(Collections.singletonList("gachiGASM")), "䰔");
+        emojis.put(new ArrayList<>(Collections.singletonList("OMEGALUL")), "䰕");
+        emojis.put(new ArrayList<>(Collections.singletonList("5Head")), "䰖");
+        emojis.put(new ArrayList<>(Collections.singletonList("KEKW")), "䰗");
+        emojis.put(new ArrayList<>(Collections.singletonList("KEKWait")), "䰘");
+        emojis.put(new ArrayList<>(Collections.singletonList("monkaS")), "䰙");
+        emojis.put(new ArrayList<>(Collections.singletonList("FeelsTastyMan")), "䰚");
+        emojis.put(new ArrayList<>(Collections.singletonList("FeelsThinkingMan")), "䰛");
+        emojis.put(new ArrayList<>(Collections.singletonList("PepoG")), "䰜");
+        emojis.put(new ArrayList<>(Collections.singletonList("monkaOMEGA")), "䰝");
+        emojis.put(new ArrayList<>(Collections.singletonList("PepeLaugh")), "䰞");
+        emojis.put(new ArrayList<>(Collections.singletonList("pepeY")), "䰟");
 
-        emojis.put(new ArrayList<>(Collections.singletonList(":trollface:")), "䰠");
-        emojis.put(new ArrayList<>(Collections.singletonList(":scream:")), "䰡");
-        emojis.put(new ArrayList<>(Collections.singletonList(":smiling_imp:")), "䰢");
-        emojis.put(new ArrayList<>(Collections.singletonList(":imp:")), "䰣");
-        emojis.put(new ArrayList<>(Collections.singletonList(":innocent:")), "䰤");
-        emojis.put(new ArrayList<>(Collections.singletonList(":musical_note:")), "䰥");
-        emojis.put(new ArrayList<>(Collections.singletonList(":star2:")), "䰦");
-        emojis.put(new ArrayList<>(Collections.singletonList(":sparkles:")), "䰧");
-        emojis.put(new ArrayList<>(Collections.singletonList(":boom:")), "䰨");
-        emojis.put(new ArrayList<>(Collections.singletonList(":blue_heart:")), "䰩");
-        emojis.put(new ArrayList<>(Collections.singletonList(":fire:")), "䰪");
-        emojis.put(new ArrayList<>(Collections.singletonList(":point_up:")), "䰫");
-        emojis.put(new ArrayList<>(Collections.singletonList(":point_down:")), "䰬");
-        emojis.put(new ArrayList<>(Collections.singletonList(":point_left:")), "䰭");
-        emojis.put(new ArrayList<>(Collections.singletonList(":point_right:")), "䰮");
-        emojis.put(new ArrayList<>(Collections.singletonList(":pray:")), "䰯");
+        emojis.put(new ArrayList<>(Collections.singletonList("lehaHaha")), "䰠");
+        emojis.put(new ArrayList<>(Collections.singletonList("lehaTrail")), "䰡");
+        emojis.put(new ArrayList<>(Collections.singletonList("Qq")), "䰢");
+        emojis.put(new ArrayList<>(Collections.singletonList("goblinWut")), "䰣");
+        emojis.put(new ArrayList<>(Collections.singletonList("goblinKavo")), "䰤");
+        emojis.put(new ArrayList<>(Collections.singletonList("goblinOgo")), "䰥");
+        emojis.put(new ArrayList<>(Collections.singletonList("pogW")), "䰦");
+        emojis.put(new ArrayList<>(Collections.singletonList("D:")), "䰧");
+        emojis.put(new ArrayList<>(Collections.singletonList("KEKL")), "䰨");
+        emojis.put(new ArrayList<>(Collections.singletonList("KEKYou")), "䰩");
+        emojis.put(new ArrayList<>(Collections.singletonList("FeelsRageMan")), "䰪");
+        emojis.put(new ArrayList<>(Collections.singletonList("pressF")), "䰫");
+        emojis.put(new ArrayList<>(Collections.singletonList("Durka")), "䰬");
+        emojis.put(new ArrayList<>(Collections.singletonList("melW")), "䰭");
+        emojis.put(new ArrayList<>(Collections.singletonList("melYoba")), "䰮");
+        emojis.put(new ArrayList<>(Collections.singletonList("AwkwardFlushed")), "䰯");
     }
 
     public void onDisable() {
@@ -153,13 +153,9 @@ public class Emotes extends JavaPlugin implements Listener {
     @Override
     public List<String> onTabComplete(CommandSender sender, Command cmd, String alias, String[] args) {
         List<String> tab = new ArrayList<>();
-        if (cmd.getName().equalsIgnoreCase("MinEmojis") && args.length == 1) {
-            for (List<String> emojis : Emotes.emojis.keySet()) {
-                for (String emoji : emojis) {
-                    if (emoji.startsWith(":") && emoji.endsWith(":")) {
-                        tab.add(emoji);
-                    }
-                }
+        for (List<String> emojis : Emotes.emojis.keySet()) {
+            for (String emoji : emojis) {
+                tab.add(emoji);
             }
         }
         return tab;
@@ -168,23 +164,14 @@ public class Emotes extends JavaPlugin implements Listener {
     @Override
     public boolean onCommand(CommandSender sender, Command cmd, String lbl, String[] args) {
         if (args.length == 0) {
-            sender.sendMessage(config.getLangString("plugin-tag") + "§aHelp Page:");
+            sender.sendMessage(config.getLangString("plugin-tag"));
             if (sender.hasPermission("minemojis.install")) {
                 sender.sendMessage(config.getLangString("commands.install").replace("{cmd}", lbl));
-            }
-            if (sender.hasPermission("minemojis.download")) {
-                sender.sendMessage(config.getLangString("commands.download").replace("{cmd}", lbl));
             }
             if (sender.hasPermission("minemojis.enable")) {
                 sender.sendMessage(config.getLangString("commands.enable").replace("{cmd}", lbl));
             }
-            if (sender.hasPermission("minemojis.list")) {
-                sender.sendMessage(config.getLangString("commands.list").replace("{cmd}", lbl));
-            }
-            if (sender.hasPermission("minemojis.setsign")) {
-                sender.sendMessage(config.getLangString("commands.setsign").replace("{cmd}", lbl));
-            }
-            sender.sendMessage(ChatColor.GRAY + "» " + ChatColor.ITALIC + Emotes.pdf.getFullName() + ", developed by CrashMax!");
+            sender.sendMessage(ChatColor.GRAY + "" + ChatColor.ITALIC + Emotes.pdf.getFullName() + ", developed by CrashMax!");
         }
         if (args.length == 1) {
             if ((args[0].equalsIgnoreCase("on") || args[0].equalsIgnoreCase("enable")) && sender.hasPermission("minemojis.enable")) {
@@ -201,16 +188,16 @@ public class Emotes extends JavaPlugin implements Listener {
                 config.reload();
                 sender.sendMessage(ChatColor.AQUA + Emotes.pdf.getFullName() + " reloaded!");
             }
-            if (args[0].equalsIgnoreCase("install") && sender instanceof Player && sender.hasPermission("minemojis.install")) {
+            if (args[0].equalsIgnoreCase("download") && sender instanceof Player && sender.hasPermission("minemojis.download")) {
                 Player p = (Player) sender;
                 if (getBukkitVersion() >= 188) {
-                    p.setResourcePack("https://www.dropbox.com/s/mggt0usjvrrvgj5/MinEmojis.zip?dl=1");
+                    p.setResourcePack("https://atestacraft.ru/download/resourcepacks/TwitchEmotes.zip");
                 } else {
-                    ResourcePackAPI.setResourcepack(p, "https://www.dropbox.com/s/mggt0usjvrrvgj5/MinEmojis.zip?dl=1");
+                    ResourcePackAPI.setResourcepack(p, "https://atestacraft.ru/download/resourcepacks/TwitchEmotes.zip");
                 }
                 installing.add(p.getName());
             }
-            if (args[0].equalsIgnoreCase("download") && sender instanceof Player && sender.hasPermission("minemojis.download")) {
+            if (args[0].equalsIgnoreCase("install") && sender instanceof Player && sender.hasPermission("minemojis.install")) {
                 Player p = (Player) sender;
                 if (config.getList("download-help-lines") != null && config.getList("download-help-lines").size() > 0) {
                     for (String line : config.getList("download-help-lines")) {
@@ -293,7 +280,7 @@ public class Emotes extends JavaPlugin implements Listener {
     private String formatEmoji(Player p, String msg, boolean sign) {
         for (List<String> emojis : Emotes.emojis.keySet()) {
             for (String emoji : emojis) {
-                if (msg.contains(emoji) && (p.hasPermission("minemojis.emoji." + emoji.replace(":", "")) || p.hasPermission("minemojis.emoji.all"))) {
+                if (msg.contains(emoji) && (p.hasPermission("minemojis.emoji.all"))) {
                     String emof = Emotes.emojis.get(emojis);
                     msg = msg.replace(emoji, sign ? "&f" + emof + "&r" : emof);
                 }
@@ -307,9 +294,9 @@ public class Emotes extends JavaPlugin implements Listener {
         Player p = event.getPlayer();
         if (config.getBool("config.resourcepack-onplayerjoin")) {
             if (getBukkitVersion() >= 188) {
-                p.setResourcePack("https://www.dropbox.com/s/mggt0usjvrrvgj5/MinEmojis.zip?dl=1");
+                p.setResourcePack("https://atestacraft.ru/download/resourcepacks/TwitchEmotes.zip");
             } else {
-                ResourcePackAPI.setResourcepack(p, "https://www.dropbox.com/s/mggt0usjvrrvgj5/MinEmojis.zip?dl=1");
+                ResourcePackAPI.setResourcepack(p, "https://atestacraft.ru/download/resourcepacks/TwitchEmotes.zip");
             }
         }
     }
