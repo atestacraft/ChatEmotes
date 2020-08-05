@@ -1,6 +1,6 @@
 name: TwitchEmotes
 main: org.crashmax.TwitchEmotes.Emotes
-version: 1.1.0
+version: 1.1.1
 author: CrashMax
 softdepend: [ResourcePackApi]
 description: Send real Twitch emotes to chat.

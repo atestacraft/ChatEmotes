@@ -80,13 +80,15 @@ public class Emotes extends JavaPlugin implements Listener {
     }
 
     private void AddEmojis() {
+		// http://www.tamasoft.co.jp/en/general-info/unicode.html 4C00
+		// 1
         emojis.put(new ArrayList<>(Collections.singletonList("4Head")), "䰀");
         emojis.put(new ArrayList<>(Collections.singletonList("ANELE")), "䰁");
         emojis.put(new ArrayList<>(Collections.singletonList("BloodTrail")), "䰂");
         emojis.put(new ArrayList<>(Collections.singletonList("BibleThump")), "䰃");
         emojis.put(new ArrayList<>(Collections.singletonList("CoolStoryBob")), "䰄");
-        emojis.put(new ArrayList<>(Collections.singletonList("DansGame")), "䰅");
-        emojis.put(new ArrayList<>(Collections.singletonList("FailFish")), "䰆");
+        emojis.put(new ArrayList<>(Collections.singletonList("HYPERDG")), "䰅");
+        emojis.put(new ArrayList<>(Collections.singletonList("CFailFish")), "䰆");
         emojis.put(new ArrayList<>(Collections.singletonList("Kappa")), "䰇");
         emojis.put(new ArrayList<>(Collections.singletonList("KPride")), "䰈");
         emojis.put(new ArrayList<>(Collections.singletonList("Keepo")), "䰉");
@@ -96,7 +98,7 @@ public class Emotes extends JavaPlugin implements Listener {
         emojis.put(new ArrayList<>(Collections.singletonList("SMOrc")), "䰍");
         emojis.put(new ArrayList<>(Collections.singletonList("TriHard")), "䰎");
         emojis.put(new ArrayList<>(Collections.singletonList("Kreygasm")), "䰏");
-
+		// 2
         emojis.put(new ArrayList<>(Collections.singletonList("roflanEbalo")), "䰐");
         emojis.put(new ArrayList<>(Collections.singletonList("ebaloRoflan")), "䰑");
         emojis.put(new ArrayList<>(Collections.singletonList("roflanBuldiga")), "䰒");
@@ -107,13 +109,13 @@ public class Emotes extends JavaPlugin implements Listener {
         emojis.put(new ArrayList<>(Collections.singletonList("KEKW")), "䰗");
         emojis.put(new ArrayList<>(Collections.singletonList("KWait")), "䰘");
         emojis.put(new ArrayList<>(Collections.singletonList("monkaS")), "䰙");
-        emojis.put(new ArrayList<>(Collections.singletonList("FeelsTastyMan")), "䰚");
+        emojis.put(new ArrayList<>(Collections.singletonList("pepe3Head")), "䰚");
         emojis.put(new ArrayList<>(Collections.singletonList("FeelsThinkingMan")), "䰛");
         emojis.put(new ArrayList<>(Collections.singletonList("PepoG")), "䰜");
         emojis.put(new ArrayList<>(Collections.singletonList("monkaOMEGA")), "䰝");
         emojis.put(new ArrayList<>(Collections.singletonList("PepeLaugh")), "䰞");
-        emojis.put(new ArrayList<>(Collections.singletonList("pepeY")), "䰟");
-
+        emojis.put(new ArrayList<>(Collections.singletonList("pepeCringe")), "䰟");
+		// 3
         emojis.put(new ArrayList<>(Collections.singletonList("lehaHaha")), "䰠");
         emojis.put(new ArrayList<>(Collections.singletonList("lehaTrail")), "䰡");
         emojis.put(new ArrayList<>(Collections.singletonList("Qq")), "䰢");
@@ -126,12 +128,12 @@ public class Emotes extends JavaPlugin implements Listener {
         emojis.put(new ArrayList<>(Collections.singletonList("KEKYou")), "䰩");
         emojis.put(new ArrayList<>(Collections.singletonList("FeelsRageMan")), "䰪");
         emojis.put(new ArrayList<>(Collections.singletonList("pressF")), "䰫");
-        emojis.put(new ArrayList<>(Collections.singletonList("Durka")), "䰬");
+        emojis.put(new ArrayList<>(Collections.singletonList("Durka1")), "䰬");
         emojis.put(new ArrayList<>(Collections.singletonList("melW")), "䰭");
         emojis.put(new ArrayList<>(Collections.singletonList("melYoba")), "䰮");
         emojis.put(new ArrayList<>(Collections.singletonList("AwkwardFlushed")), "䰯");
-		
-		emojis.put(new ArrayList<>(Collections.singletonList("CrashMax")), "䰰");
+		// 4
+        emojis.put(new ArrayList<>(Collections.singletonList("CrashMax")), "䰰");
         emojis.put(new ArrayList<>(Collections.singletonList("BarsokuN")), "䰱");
         emojis.put(new ArrayList<>(Collections.singletonList("le_xot")), "䰲");
         emojis.put(new ArrayList<>(Collections.singletonList("BAN")), "䰳");
@@ -147,6 +149,57 @@ public class Emotes extends JavaPlugin implements Listener {
         emojis.put(new ArrayList<>(Collections.singletonList("pogO")), "䰽");
         emojis.put(new ArrayList<>(Collections.singletonList("peepoNoob")), "䰾");
         emojis.put(new ArrayList<>(Collections.singletonList("Loading")), "䰿");
+		// 5
+        emojis.put(new ArrayList<>(Collections.singletonList("SSSsss")), "䱀");
+        emojis.put(new ArrayList<>(Collections.singletonList("Pepega")), "䱁");
+        emojis.put(new ArrayList<>(Collections.singletonList("weSmart")), "䱂");
+        emojis.put(new ArrayList<>(Collections.singletonList("pepeS")), "䱃");
+        emojis.put(new ArrayList<>(Collections.singletonList("2Head")), "䱄");
+        emojis.put(new ArrayList<>(Collections.singletonList("KRoss")), "䱅");
+        emojis.put(new ArrayList<>(Collections.singletonList("Petrosyan")), "䱆");
+        emojis.put(new ArrayList<>(Collections.singletonList("EZ")), "䱇");
+        emojis.put(new ArrayList<>(Collections.singletonList("MingLee")), "䱈");
+        emojis.put(new ArrayList<>(Collections.singletonList("OpieOP")), "䱉");
+        emojis.put(new ArrayList<>(Collections.singletonList("imGlitch")), "䱊");
+        emojis.put(new ArrayList<>(Collections.singletonList("imAT")), "䱋");
+        emojis.put(new ArrayList<>(Collections.singletonList("EleGiggle")), "䱌");
+        emojis.put(new ArrayList<>(Collections.singletonList("roflanHmm")), "䱍");
+        emojis.put(new ArrayList<>(Collections.singletonList("roflanHater")), "䱎");
+        emojis.put(new ArrayList<>(Collections.singletonList("roflanPominki")), "䱏");
+		// 6
+        emojis.put(new ArrayList<>(Collections.singletonList("peepoSleeper")), "䱐");
+        emojis.put(new ArrayList<>(Collections.singletonList("pepeSleeper")), "䱑");
+        emojis.put(new ArrayList<>(Collections.singletonList("PEPEGAHACKER")), "䱒");
+        emojis.put(new ArrayList<>(Collections.singletonList("pepeHappy")), "䱓");
+        emojis.put(new ArrayList<>(Collections.singletonList("melATMTA")), "䱔");
+        emojis.put(new ArrayList<>(Collections.singletonList("Klass")), "䱕");
+        emojis.put(new ArrayList<>(Collections.singletonList("spongeY")), "䱖");
+        emojis.put(new ArrayList<>(Collections.singletonList("spongeO")), "䱗");
+        emojis.put(new ArrayList<>(Collections.singletonList("spongeW")), "䱘");
+        emojis.put(new ArrayList<>(Collections.singletonList("FeelsMinecraftMan")), "䱙");
+        emojis.put(new ArrayList<>(Collections.singletonList("HeyGuys")), "䱚");
+        emojis.put(new ArrayList<>(Collections.singletonList("POOPEGA")), "䱛");
+        emojis.put(new ArrayList<>(Collections.singletonList("Durka2")), "䱜");
+        emojis.put(new ArrayList<>(Collections.singletonList("pepeDan")), "䱝");
+        emojis.put(new ArrayList<>(Collections.singletonList("XyliPizdish")), "䱞");
+        emojis.put(new ArrayList<>(Collections.singletonList("LULY")), "䱟");
+		// 7
+        emojis.put(new ArrayList<>(Collections.singletonList("ricardoFlick")), "䱠");
+        emojis.put(new ArrayList<>(Collections.singletonList("ZULUL")), "䱡");
+        emojis.put(new ArrayList<>(Collections.singletonList("KKomrade")), "䱢");
+        emojis.put(new ArrayList<>(Collections.singletonList("HYPERKEK")), "䱣");
+        emojis.put(new ArrayList<>(Collections.singletonList("KEKKK")), "䱤");
+        emojis.put(new ArrayList<>(Collections.singletonList("gachiHands")), "䱥");
+        emojis.put(new ArrayList<>(Collections.singletonList("KEKHands")), "䱦");
+        emojis.put(new ArrayList<>(Collections.singletonList("DiamondOre")), "䱧");
+        emojis.put(new ArrayList<>(Collections.singletonList("Areyawinning")), "䱨");
+        emojis.put(new ArrayList<>(Collections.singletonList("shrekT")), "䱩");
+        emojis.put(new ArrayList<>(Collections.singletonList("shrekW")), "䱪");
+        emojis.put(new ArrayList<>(Collections.singletonList("shrekS")), "䱫");
+        emojis.put(new ArrayList<>(Collections.singletonList("Slowpoke")), "䱬");
+        emojis.put(new ArrayList<>(Collections.singletonList("GabeN")), "䱭");
+        emojis.put(new ArrayList<>(Collections.singletonList("forsenT")), "䱮");
+        emojis.put(new ArrayList<>(Collections.singletonList("forsen7")), "䱯");
     }
 
     public void onDisable() {
