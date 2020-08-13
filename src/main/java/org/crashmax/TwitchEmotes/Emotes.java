@@ -173,7 +173,7 @@ public class Emotes extends JavaPlugin implements Listener {
         emojis.put(new ArrayList<>(Collections.singletonList("pepeHappy")), "䱓");
         emojis.put(new ArrayList<>(Collections.singletonList("melATMTA")), "䱔");
         emojis.put(new ArrayList<>(Collections.singletonList("Klass")), "䱕");
-        emojis.put(new ArrayList<>(Collections.singletonList("spongeY")), "䱖");
+        emojis.put(new ArrayList<>(Collections.singletonList("AnimeHappy")), "䱖");
         emojis.put(new ArrayList<>(Collections.singletonList("spongeO")), "䱗");
         emojis.put(new ArrayList<>(Collections.singletonList("spongeW")), "䱘");
         emojis.put(new ArrayList<>(Collections.singletonList("FeelsMinecraftMan")), "䱙");
