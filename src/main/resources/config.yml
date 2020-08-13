@@ -1,11 +1,11 @@
 config:
   resourcepack-onplayerjoin: false
 download-help-lines:
-  - '&eИнструкция установки:'
-  - '&7- &6Скачайте ресурcпак: &3https://atestacraft.ru/download/resourcepacks/TwitchEmotes.zip'
-  - '&7- &6Скопируйте в папку игры: &3.minecraft/resourcepacks'
-  - '&7- &6Загрузите в игре: &3Настройки&7 > &3Наборы ресурсов...'
-  - '&7- &6Активируйте командой: &3/e on'
+- '      &6---==={&3Twitch Emotes&6}===---'
+- '&6Скачайте ресурcпак: &3https://atestacraft.ru/download/resourcepacks/TwitchEmotes.zip'
+- '&6Скопируйте zip в папку с игрой: &3.minecraft/resourcepacks'
+- '&6Активируйте ресурспак: &3Настройки&7 &6-> &3Наборы ресурсов...'
+- '&6Включите смайлики командой: &3/e on'
 strings:
   plugin-tag: '&6[&3TwitchEmotes&6] &7'
   default-color: '&7'
