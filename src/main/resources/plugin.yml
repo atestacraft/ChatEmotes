@@ -5,24 +5,24 @@ author: CrashMax
 softdepend: [ResourcePackApi]
 description: Send real Twitch emotes to chat.
 commands:
-  MinEmojis:
+  TwitchEmotes:
     description: "Main command for Twitch Emotes."
     aliases: [e ,emo, emotes]
 permissions:
-  minemojis.*:
+  twitchemotes.*:
     description: "All Twitch Emotes permissions."
     default: op
     children:
-      minemojis.reload: true
-      minemojis.player: true
-      minemojis.setsign: true
-  minemojis.player:
+      twitchemotes.reload: true
+      twitchemotes.player: true
+      twitchemotes.setsign: true
+  twitchemotes.player:
     description: "All player Twitch Emotes permissions."
     default: false
     children:
-      minemojis.install: true
-      minemojis.download: true
-      minemojis.enable: true
-      minemojis.list: true
-      minemojis.emoji.all: true
-      minemojis.placesign: true
+      twitchemotes.install: true
+      twitchemotes.download: true
+      twitchemotes.enable: true
+      twitchemotes.list: true
+      twitchemotes.emoji.all: true
+      twitchemotes.placesign: true
