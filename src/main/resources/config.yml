@@ -3,11 +3,6 @@ strings:
   default-color: '&7'
   shortcut: '&bShortcut: &7'
   noperm: '&cYou dont have permission to use this command!'
-  disabling: '&7To see our emotes you need to install fist. We will disable for you!'
-  error: '&7Theres an error on install emotes and we will disable for you!'
-  emojis:
-    enabled: '&aChatEmotes enabled for you!'
-    disabled: '&cChatEmotes disabled for you!'
   setsign:
     usage: '&cUsage: /e setsign <sign line> <text>'
     nolines: '&cThe sign lines need to be from 1 to 4'
