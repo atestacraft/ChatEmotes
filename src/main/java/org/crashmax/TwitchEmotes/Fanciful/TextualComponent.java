@@ -1,4 +1,4 @@
-package org.crashmax.TwitchEmotes.Fanciful;
+package org.crashmax.ChatEmotes.Fanciful;
 
 import com.google.common.base.Preconditions;
 import com.google.gson.stream.JsonWriter;

@@ -1,7 +1,7 @@
-package org.crashmax.TwitchEmotes.Fanciful;
+package org.crashmax.ChatEmotes.Fanciful;
 
-import org.crashmax.TwitchEmotes.Fanciful.util.ArrayWrapper;
-import org.crashmax.TwitchEmotes.Fanciful.util.Reflection;
+import org.crashmax.ChatEmotes.Fanciful.util.ArrayWrapper;
+import org.crashmax.ChatEmotes.Fanciful.util.Reflection;
 import com.google.gson.JsonArray;
 import com.google.gson.JsonElement;
 import com.google.gson.JsonObject;
@@ -485,7 +485,7 @@ public class FancyMessage implements JsonRepresentedObject, Cloneable, Iterable<
         return this;
     }
 	/*
-	
+
 	/**
 	 * If the text is a translatable key, and it has replaceable values, this function can be used to set the replacements that will be used in the message.
 	 * @param replacements The replacements, in order, that will be used in the language-specific message.
@@ -495,10 +495,10 @@ public class FancyMessage implements JsonRepresentedObject, Cloneable, Iterable<
 		for(CharSequence str : replacements){
 			latest().translationReplacements.add(new JsonString(str));
 		}
-		
+
 		return this;
 	}
-	
+
 	*/
 
     /**

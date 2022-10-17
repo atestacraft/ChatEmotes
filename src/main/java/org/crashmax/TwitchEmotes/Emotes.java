@@ -1,6 +1,6 @@
-package org.crashmax.TwitchEmotes;
+package org.crashmax.ChatEmotes;
 
-import org.crashmax.TwitchEmotes.Fanciful.FancyMessage;
+import org.crashmax.ChatEmotes.Fanciful.FancyMessage;
 import org.bukkit.Bukkit;
 import org.bukkit.ChatColor;
 import org.bukkit.Server;
@@ -388,39 +388,39 @@ public class Emotes extends JavaPlugin implements Listener {
     public boolean onCommand(CommandSender sender, Command cmd, String lbl, String[] args) {
         if (args.length == 0) {
             sender.sendMessage(config.getLangString("plugin-tag"));
-            if (sender.hasPermission("twitchemotes.install")) {
+            if (sender.hasPermission("ChatEmotes.install")) {
                 sender.sendMessage(config.getLangString("commands.install").replace("{cmd}", lbl));
             }
-            if (sender.hasPermission("twitchemotes.enable")) {
+            if (sender.hasPermission("ChatEmotes.enable")) {
                 sender.sendMessage(config.getLangString("commands.enable").replace("{cmd}", lbl));
             }
             sender.sendMessage(ChatColor.GRAY + "" + ChatColor.ITALIC + Emotes.pdf.getFullName() + ", developed by CrashMax!");
         }
         if (args.length == 1) {
-            if ((args[0].equalsIgnoreCase("on") || args[0].equalsIgnoreCase("enable")) && sender.hasPermission("twitchemotes.enable")) {
+            if ((args[0].equalsIgnoreCase("on") || args[0].equalsIgnoreCase("enable")) && sender.hasPermission("ChatEmotes.enable")) {
                 DeclinedPlayers.remove(sender.getName());
                 sender.sendMessage(config.getLangString("plugin-tag") + config.getLangString("emojis.enabled"));
             }
-            if ((args[0].equalsIgnoreCase("off") || args[0].equalsIgnoreCase("disable")) && sender.hasPermission("twitchemotes.enable")) {
+            if ((args[0].equalsIgnoreCase("off") || args[0].equalsIgnoreCase("disable")) && sender.hasPermission("ChatEmotes.enable")) {
                 if (!DeclinedPlayers.contains(sender.getName())) {
                     DeclinedPlayers.add(sender.getName());
                 }
                 sender.sendMessage(config.getLangString("plugin-tag") + config.getLangString("emojis.disabled"));
             }
-            if (args[0].equalsIgnoreCase("reload") && sender.hasPermission("twitchemotes.reload")) {
+            if (args[0].equalsIgnoreCase("reload") && sender.hasPermission("ChatEmotes.reload")) {
                 config.reload();
                 sender.sendMessage(ChatColor.AQUA + Emotes.pdf.getFullName() + " reloaded!");
             }
-            if (args[0].equalsIgnoreCase("download") && sender instanceof Player && sender.hasPermission("twitchemotes.download")) {
+            if (args[0].equalsIgnoreCase("download") && sender instanceof Player && sender.hasPermission("ChatEmotes.download")) {
                 Player p = (Player) sender;
                 if (getBukkitVersion() >= 188) {
-                    p.setResourcePack("https://atestacraft.ru/download/resourcepacks/TwitchEmotes.zip");
+                    p.setResourcePack("https://atestacraft.ru/download/resourcepacks/ChatEmotes.zip");
                 } else {
-                    ResourcePackAPI.setResourcepack(p, "https://atestacraft.ru/download/resourcepacks/TwitchEmotes.zip");
+                    ResourcePackAPI.setResourcepack(p, "https://atestacraft.ru/download/resourcepacks/ChatEmotes.zip");
                 }
                 installing.add(p.getName());
             }
-            if (args[0].equalsIgnoreCase("install") && sender instanceof Player && sender.hasPermission("twitchemotes.install")) {
+            if (args[0].equalsIgnoreCase("install") && sender instanceof Player && sender.hasPermission("ChatEmotes.install")) {
                 Player p = (Player) sender;
                 if (config.getList("download-help-lines") != null && config.getList("download-help-lines").size() > 0) {
                     for (String line : config.getList("download-help-lines")) {
@@ -428,7 +428,7 @@ public class Emotes extends JavaPlugin implements Listener {
                     }
                 }
             }
-            if (args[0].equalsIgnoreCase("list") && sender instanceof Player && sender.hasPermission("twitchemotes.list")) {
+            if (args[0].equalsIgnoreCase("list") && sender instanceof Player && sender.hasPermission("ChatEmotes.list")) {
                 Iterator<List<String>> emojits = Emotes.emojis.keySet().iterator();
                 sender.sendMessage(config.getLangString("plugin-tag") + config.getLangString("default-color") + " Emojis:");
                 try {
@@ -459,7 +459,7 @@ public class Emotes extends JavaPlugin implements Listener {
                 }
             }
             for (List<String> emojis : Emotes.emojis.keySet()) {
-                if (emojis.contains(args[0]) && (sender.hasPermission("twitchemotes." + args[0]) || sender.hasPermission("twitchemotes.all"))) {
+                if (emojis.contains(args[0]) && (sender.hasPermission("ChatEmotes." + args[0]) || sender.hasPermission("ChatEmotes.all"))) {
                     sender.sendMessage(config.getLangString("plugin-tag") + " " + args[0] + "§r = " + Emotes.emojis.get(emojis));
                 }
             }
@@ -467,7 +467,7 @@ public class Emotes extends JavaPlugin implements Listener {
 
         if (args.length >= 3) {
             //emoji setsign <line> <text>
-            if (args[0].equalsIgnoreCase("setsign") && sender instanceof Player && sender.hasPermission("twitchemotes.setsign")) {
+            if (args[0].equalsIgnoreCase("setsign") && sender instanceof Player && sender.hasPermission("ChatEmotes.setsign")) {
                 Player p = (Player) sender;
                 int line;
                 try {
@@ -503,7 +503,7 @@ public class Emotes extends JavaPlugin implements Listener {
     private String formatEmoji(Player p, String msg, boolean sign) {
         for (List<String> emojis : Emotes.emojis.keySet()) {
             for (String emoji : emojis) {
-                if (msg.contains(emoji) && (p.hasPermission("twitchemotes.emoji.all"))) {
+                if (msg.contains(emoji) && (p.hasPermission("ChatEmotes.emoji.all"))) {
                     String emof = Emotes.emojis.get(emojis);
                     msg = msg.replace(emoji, sign ? "&f" + emof + "&r" : emof);
                 }
@@ -517,9 +517,9 @@ public class Emotes extends JavaPlugin implements Listener {
         Player p = event.getPlayer();
         if (config.getBool("config.resourcepack-onplayerjoin")) {
             if (getBukkitVersion() >= 188) {
-                p.setResourcePack("https://atestacraft.ru/download/resourcepacks/TwitchEmotes.zip");
+                p.setResourcePack("https://atestacraft.ru/download/resourcepacks/ChatEmotes.zip");
             } else {
-                ResourcePackAPI.setResourcepack(p, "https://atestacraft.ru/download/resourcepacks/TwitchEmotes.zip");
+                ResourcePackAPI.setResourcepack(p, "https://atestacraft.ru/download/resourcepacks/ChatEmotes.zip");
             }
         }
     }
@@ -545,7 +545,7 @@ public class Emotes extends JavaPlugin implements Listener {
     @EventHandler(ignoreCancelled = true, priority = EventPriority.HIGHEST)
     public void onSignChange(SignChangeEvent e) {
         Player p = e.getPlayer();
-        if (p.hasPermission("twitchemotes.placesign") && !Emotes.DeclinedPlayers.contains(p.getName())) {
+        if (p.hasPermission("ChatEmotes.placesign") && !Emotes.DeclinedPlayers.contains(p.getName())) {
             for (int i = 0; i < e.getLines().length; i++) {
                 e.setLine(i, ChatColor.translateAlternateColorCodes('&', formatEmoji(p, e.getLine(i), true)));
             }

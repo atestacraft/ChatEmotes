@@ -1,4 +1,4 @@
-package org.crashmax.TwitchEmotes.Fanciful;
+package org.crashmax.ChatEmotes.Fanciful;
 
 import com.google.gson.stream.JsonWriter;
 import org.bukkit.configuration.serialization.ConfigurationSerializable;

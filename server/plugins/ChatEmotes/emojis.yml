@@ -4,4 +4,10 @@
 # If you want to add more than one alias use commas, like the emoji 'sob'.
 # -------------------------------------------------------------------------
 
-{}
+emotes:
+- name: 4Head
+  position:
+  - 0
+  - 0
+  aliases:
+  - 4head

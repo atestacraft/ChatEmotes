@@ -1,4 +1,4 @@
-package org.crashmax.TwitchEmotes;
+package org.crashmax.ChatEmotes;
 
 import org.bukkit.Bukkit;
 
@@ -23,4 +23,3 @@ public class MELogger {
         Bukkit.getConsoleSender().sendMessage("Twitch Emotes: [" + s + "]");
     }
 }
-

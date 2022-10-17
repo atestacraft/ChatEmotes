@@ -1,4 +1,4 @@
-package org.crashmax.TwitchEmotes.Fanciful;
+package org.crashmax.ChatEmotes.Fanciful;
 
 import com.google.common.collect.BiMap;
 import com.google.common.collect.ImmutableBiMap;

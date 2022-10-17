@@ -1,4 +1,4 @@
-package org.crashmax.TwitchEmotes;
+package org.crashmax.ChatEmotes;
 
 import org.bukkit.entity.Player;
 import org.bukkit.event.EventHandler;

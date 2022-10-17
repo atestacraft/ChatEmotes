@@ -1,1 +1,5 @@
-emoji-aliases:
+emotes:
+    - name: 4Head
+      position: [0, 0]
+      aliases:
+        - 4head

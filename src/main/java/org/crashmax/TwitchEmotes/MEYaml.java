@@ -1,4 +1,4 @@
-package org.crashmax.TwitchEmotes;
+package org.crashmax.ChatEmotes;
 
 import com.google.common.io.Files;
 import org.apache.commons.lang.Validate;

@@ -1,4 +1,4 @@
-package org.crashmax.TwitchEmotes.Fanciful.util;
+package org.crashmax.ChatEmotes.Fanciful.util;
 
 import org.bukkit.Bukkit;
 

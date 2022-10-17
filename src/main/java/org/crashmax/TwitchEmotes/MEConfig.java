@@ -1,4 +1,4 @@
-package org.crashmax.TwitchEmotes;
+package org.crashmax.ChatEmotes;
 
 import org.bukkit.ChatColor;
 import org.bukkit.configuration.InvalidConfigurationException;

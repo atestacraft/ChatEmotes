@@ -1,28 +1,26 @@
-name: TwitchEmotes
-main: org.crashmax.TwitchEmotes.Emotes
-version: 1.1.2
+name: ChatEmotes
+main: org.crashmax.ChatEmotes.Emotes
+version: 2.0.0
 author: CrashMax
 softdepend: [ResourcePackApi]
 description: Send real Twitch emotes to chat.
 commands:
-  TwitchEmotes:
-    description: "Main command for Twitch Emotes."
-    aliases: [e ,emo, emotes]
+  ChatEmotes:
+    description: "Main command for Chat Emotes."
+    aliases: [e, emotes]
 permissions:
-  twitchemotes.*:
-    description: "All Twitch Emotes permissions."
+  chatemotes.*:
+    description: "All Chat Emotes permissions."
     default: op
     children:
-      twitchemotes.reload: true
-      twitchemotes.player: true
-      twitchemotes.setsign: true
-  twitchemotes.player:
-    description: "All player Twitch Emotes permissions."
+      chatemotes.reload: true
+      chatemotes.player: true
+  chatemotes.player:
+    description: "All player Chat Emotes permissions."
     default: false
     children:
-      twitchemotes.install: true
-      twitchemotes.download: true
-      twitchemotes.enable: true
-      twitchemotes.list: true
-      twitchemotes.emoji.all: true
-      twitchemotes.placesign: true
+      chatemotes.enable: true
+      chatemotes.list: true
+      chatemotes.emoji.all: true
+      chatemotes.placesign: true
+      chatemotes.setsign: true
