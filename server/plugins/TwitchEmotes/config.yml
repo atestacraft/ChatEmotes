@@ -1,0 +1,33 @@
+config:
+  resourcepack-onplayerjoin: false
+download-help-lines:
+- '      &6---==={&3Twitch Emotes&6}===---'
+- '&6Скачайте ресурcпак: &3https://atestacraft.ru/download/resourcepacks/TwitchEmotes.zip'
+- '&6Скопируйте zip в папку с игрой: &3.minecraft/resourcepacks'
+- '&6Активируйте ресурспак: &3Настройки&7 &6-> &3Наборы ресурсов...'
+- '&6Включите смайлики командой: &3/e on'
+strings:
+  plugin-tag: '&6[&3TwitchEmotes&6] &7'
+  default-color: '&7'
+  shortcut: '&bShortcut: &7'
+  noperm: '&cYou dont have permission to use this command!'
+  installing: '&7Wait until the installation is completed...'
+  installed: '&7Emotes installed with success! Now use &6/e list &7to see all available
+    emojis for you.'
+  disabling: '&7To see our emotes you need to install fist. We will disable for you!'
+  error: '&7Theres an error on install emotes and we will disable for you!'
+  emojis:
+    enabled: '&aTwitchEmotes enabled for you!'
+    disabled: '&cTwitchEmotes disabled for you!'
+  setsign:
+    usage: '&cUsage: /e setsign <sign line> <text>'
+    nolines: '&cThe sign lines need to be from 1 to 4'
+    setline-to: '&aAdded text to line {line}: &r{text}&a. Add more lines or click
+      on sign to paste the text.'
+    no-sign: '&cThis is not a sign!'
+  commands:
+    install: '&6Установка: &3/{cmd} install'
+    download: '&3/{cmd} download &7- &6Show how to download emotes'
+    enable: '&6Вкл/Выкл отправку смайликов: &3/{cmd} on/off'
+    setsign: '&3/{cmd} setsign <line> <text> &6- &7Edit sign with emotes'
+    list: '&3/{cmd} list &7- &6List all emotes available for you'

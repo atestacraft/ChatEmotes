@@ -1,0 +1,10 @@
+*.jar
+world
+world_nether
+world_the_end
+libraries
+logs
+crash-reports
+cache
+versions
+.console_history
