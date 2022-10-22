@@ -1,19 +1,41 @@
-strings:
-  plugin-tag: '&6[&3ChatEmotes&6] &7'
-  default-color: '&7'
-  shortcut: '&bShortcut: &7'
-  noperm: '&cYou dont have permission to use this command!'
-  disabling: '&7To see our emotes you need to install fist. We will disable for you!'
-  error: '&7Theres an error on install emotes and we will disable for you!'
-  emojis:
-    enabled: '&aChatEmotes enabled for you!'
-    disabled: '&cChatEmotes disabled for you!'
-  setsign:
-    usage: '&cUsage: /e setsign <sign line> <text>'
-    nolines: '&cThe sign lines need to be from 1 to 4'
-    setline-to: '&aAdded text to line {line}: &r{text}&a. Add more lines or click
-      on sign to paste the text.'
-    no-sign: '&cThis is not a sign!'
-  commands:
-    setsign: '&3/{cmd} setsign <line> <text> &6- &7Edit sign with emotes'
-    list: '&3/{cmd} list &7- &6List all emotes available for you'
+emote-provider:
+  # what emote provider to use: 'local' or 'http'
+  # emote provider is responsible for emote management and resource pack generation
+  use: local
+
+  # maximum page size for emote list
+  page-size: 12
+
+  # settings for local emote provider
+  local:
+    # resource pack generator
+    pack:
+      prompt: Chat emotes!
+      height: 10
+      ascent: 8
+    http:
+      # resource pack server
+      port: 25765
+
+  # settings for http emote provider
+  http:
+    headers:
+      user-agent: chatemotes/1.0
+    # authorization: token
+    urls:
+      emotes:
+        # HTTP GET <- [{ "name": "Kappa", "char": "§" }]
+        list: http://localhost:8080/emotes
+
+        # HTTP PUT -> { "name": "Kappa", "url": "https://..." }
+        add: http://localhost:8080/emote
+
+        # HTTP DELETE
+        delete: http://localhost:8080/emote/{name}
+
+        # HTTP POST -> { "name": "NewEmoteName" }
+        rename: http://localhost:8080/emote/{name}
+      pack:
+        download: http://localhost:8080/resource_pack.zip
+        # HTTP GET <- { "hash": "..." }
+        hash: http://localhost:8080/hash
